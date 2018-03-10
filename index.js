@@ -18,8 +18,8 @@ function johnLennonFacts(facts){
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-  var strings=[];
-  do {
+  var newFacts=[];
+  
     strings.push(facts[i]+"!!!");    
   } while (var i=0; i<musicians.length; i++);
 
